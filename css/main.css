@@ -49,6 +49,8 @@ h3 {
 .pokemon_name {
     margin-top: 5px;
     margin-bottom: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .pokedex_number {
