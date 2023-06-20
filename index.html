@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Custom Pokedex!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container" class="grid-con">
+        <section class="col-span-full" id="title">
+            <h2 id="main_title">Create Your Own Custom Pokedex</h2>
+        </section>
+
+        <section class="col-span-full" id="instructions">
+            <p id="instructions_text">Drag and drop the sprites on the left to the Pokedex area on the right. Fill out your own custom Pokedex!</p>
+        </section>
+
+        <section class="col-start 1 col-end-3 m-col-start-1 m-col-end-7" id="sprite_area">
+            <div id="sprite_box">
+                <h3 id="box_title">Sprites</h3>
+                <div id="pokemon_sprites">
+                    <div class="sprite_item"><img src="images/001.png" alt="Bulbasaur"><p class="pokemon_name">Bulbasaur</p></div>
+                    <div class="sprite_item"><img src="images/002.png" alt="Ivysaur"><p class="pokemon_name">Ivysaur</p></div>
+                    <div class="sprite_item"><img src="images/003.png" alt="Venusaur"><p class="pokemon_name">Venusaur</p></div>
+                    <div class="sprite_item"><img src="images/004.png" alt="Charmander"><p class="pokemon_name">Charmander</p></div>
+                    <div class="sprite_item"><img src="images/005.png" alt="Charmeleon"><p class="pokemon_name">Charmeleon</p></div>
+                    <div class="sprite_item"><img src="images/006.png" alt="Charizard"><p class="pokemon_name">Charizard</p></div>
+                    <div class="sprite_item"><img src="images/007.png" alt="Squirtle"><p class="pokemon_name">Squirtle</p></div>
+                    <div class="sprite_item"><img src="images/008.png" alt="Wartortle"><p class="pokemon_name">Wartortle</p></div>
+                    <div class="sprite_item"><img src="images/009.png" alt="Blastoise"><p class="pokemon_name">Blastoise</p></div>
+                    <div class="sprite_item"><img src="images/010.png" alt="Caterpie"><p class="pokemon_name">Caterpie</p></div>
+                    <div class="sprite_item"><img src="images/011.png" alt="Metapod"><p class="pokemon_name">Metapod</p></div>
+                    <div class="sprite_item"><img src="images/012.png" alt="Butterfree"><p class="pokemon_name">Butterfree</p></div>
+                    <div class="sprite_item"><img src="images/013.png" alt="Weedle"><p class="pokemon_name">Weedle</p></div>
+                    <div class="sprite_item"><img src="images/014.png" alt="Kakuna"><p class="pokemon_name">Kakuna</p></div>
+                    <div class="sprite_item"><img src="images/015.png" alt="Beedrill"><p class="pokemon_name">Beedrill</p></div>
+                    <div class="sprite_item"><img src="images/016.png" alt="Pidgey"><p class="pokemon_name">Pidgey</p></div>
+                    <div class="sprite_item"><img src="images/017.png" alt="Pidgeotto"><p class="pokemon_name">Pidgeotto</p></div>
+                    <div class="sprite_item"><img src="images/018.png" alt="Pidgeot"><p class="pokemon_name">Pidgeot</p></div>
+                    <div class="sprite_item"><img src="images/019.png" alt="Rattata"><p class="pokemon_name">Rattata</p></div>
+                    <div class="sprite_item"><img src="images/020.png" alt="Raticate"><p class="pokemon_name">Raticate</p></div>
+                    <div class="sprite_item"><img src="images/021.png" alt="Spearow"><p class="pokemon_name">Spearow</p></div>
+                    <div class="sprite_item"><img src="images/022.png" alt="Fearow"><p class="pokemon_name">Fearow</p></div>
+                    <div class="sprite_item"><img src="images/023.png" alt="Ekans"><p class="pokemon_name">Ekans</p></div>
+                    <div class="sprite_item"><img src="images/024.png" alt="Arbok"><p class="pokemon_name">Arbok</p></div>
+                    <div class="sprite_item"><img src="images/025.png" alt="Pikachu"><p class="pokemon_name">Pikachu</p></div>
+                    <div class="sprite_item"><img src="images/026.png" alt="Raichu"><p class="pokemon_name">Raichu</p></div>
+                    <div class="sprite_item"><img src="images/027.png" alt="Sandshrew"><p class="pokemon_name">Sandshrew</p></div>
+                    <div class="sprite_item"><img src="images/028.png" alt="Sandslash"><p class="pokemon_name">Sandslash</p></div>
+                    <div class="sprite_item"><img src="images/029.png" alt="NidoranF"><p class="pokemon_name">Nidoran (F)</p></div>
+                    <div class="sprite_item"><img src="images/030.png" alt="Nidorina"><p class="pokemon_name">Nidorina</p></div>
+                    <div class="sprite_item"><img src="images/031.png" alt="Nidoqueen"><p class="pokemon_name">Nidoqueen</p></div>
+                    <div class="sprite_item"><img src="images/032.png" alt="NidoranM"><p class="pokemon_name">Nidoran (M)</p></div>
+                    <div class="sprite_item"><img src="images/033.png" alt="Nidorino"><p class="pokemon_name">Nidorino</p></div>
+                    <div class="sprite_item"><img src="images/034.png" alt="Nidoking"><p class="pokemon_name">Nidoking</p></div>
+                    <div class="sprite_item"><img src="images/035.png" alt="Clefairy"><p class="pokemon_name">Clefairy</p></div>
+                    <div class="sprite_item"><img src="images/036.png" alt="Clefable"><p class="pokemon_name">Clefable</p></div>
+                    <div class="sprite_item"><img src="images/037.png" alt="Vulpix"><p class="pokemon_name">Vulpix</p></div>
+                    <div class="sprite_item"><img src="images/038.png" alt="Ninetales"><p class="pokemon_name">Ninetales</p></div>
+                    <div class="sprite_item"><img src="images/039.png" alt="Jigglypuff"><p class="pokemon_name">Jigglypuff</p></div>
+                    <div class="sprite_item"><img src="images/040.png" alt="Wigglytuff"><p class="pokemon_name">Wigglytuff</p></div>
+                    <div class="sprite_item"><img src="images/041.png" alt="Zubat"><p class="pokemon_name">Zubat</p></div>
+                    <div class="sprite_item"><img src="images/042.png" alt="Golbat"><p class="pokemon_name">Golbat</p></div>
+                    <div class="sprite_item"><img src="images/043.png" alt="Oddish"><p class="pokemon_name">Oddish</p></div>
+                    <div class="sprite_item"><img src="images/044.png" alt="Gloom"><p class="pokemon_name">Gloom</p></div>
+                    <div class="sprite_item"><img src="images/045.png" alt="Vileplume"><p class="pokemon_name">Vileplume</p></div>
+                    <div class="sprite_item"><img src="images/046.png" alt="Paras"><p class="pokemon_name">Paras</p></div>
+                    <div class="sprite_item"><img src="images/047.png" alt="Parasect"><p class="pokemon_name">Parasect</p></div>
+                    <div class="sprite_item"><img src="images/048.png" alt="Venonat"><p class="pokemon_name">Venonat</p></div>
+                    <div class="sprite_item"><img src="images/049.png" alt="Venomoth"><p class="pokemon_name">Venomoth</p></div>
+                    <div class="sprite_item"><img src="images/050.png" alt="Diglett"><p class="pokemon_name">Diglett</p></div>
+                    <div class="sprite_item"><img src="images/051.png" alt="Dugtrio"><p class="pokemon_name">Dugtrio</p></div>
+                    <div class="sprite_item"><img src="images/052.png" alt="Meowth"><p class="pokemon_name">Meowth</p></div>
+                    <div class="sprite_item"><img src="images/053.png" alt="Persian"><p class="pokemon_name">Persian</p></div>
+                    <div class="sprite_item"><img src="images/054.png" alt="Psyduck"><p class="pokemon_name">Psyduck</p></div>
+                    <div class="sprite_item"><img src="images/055.png" alt="Golduck"><p class="pokemon_name">Golduck</p></div>
+                    <div class="sprite_item"><img src="images/056.png" alt="Mankey"><p class="pokemon_name">Mankey</p></div>
+                    <div class="sprite_item"><img src="images/057.png" alt="Primeape"><p class="pokemon_name">Primeape</p></div>
+                    <div class="sprite_item"><img src="images/058.png" alt="Growlithe"><p class="pokemon_name">Growlithe</p></div>
+                    <div class="sprite_item"><img src="images/059.png" alt="Arcanine"><p class="pokemon_name">Arcanine</p></div>
+                    <div class="sprite_item"><img src="images/060.png" alt="Poliwag"><p class="pokemon_name">Poliwag</p></div>
+                    <div class="sprite_item"><img src="images/061.png" alt="Poliwhirl"><p class="pokemon_name">Poliwhirl</p></div>
+                    <div class="sprite_item"><img src="images/062.png" alt="Poliwrath"><p class="pokemon_name">Poliwrath</p></div>
+                    <div class="sprite_item"><img src="images/063.png" alt="Abra"><p class="pokemon_name">Abra</p></div>
+                    <div class="sprite_item"><img src="images/064.png" alt="Kadabra"><p class="pokemon_name">Kadabra</p></div>
+                    <div class="sprite_item"><img src="images/065.png" alt="Alakazam"><p class="pokemon_name">Alakazam</p></div>
+                    <div class="sprite_item"><img src="images/066.png" alt="Machop"><p class="pokemon_name">Machop</p></div>
+                    <div class="sprite_item"><img src="images/067.png" alt="Machoke"><p class="pokemon_name">Machoke</p></div>
+                    <div class="sprite_item"><img src="images/068.png" alt="Machamp"><p class="pokemon_name">Machamp</p></div>
+                    <div class="sprite_item"><img src="images/069.png" alt="Bellsprout"><p class="pokemon_name">Bellsprout</p></div>
+                    <div class="sprite_item"><img src="images/070.png" alt="Weepinbell"><p class="pokemon_name">Weepinbell</p></div>
+                    <div class="sprite_item"><img src="images/071.png" alt="Victreebel"><p class="pokemon_name">Victreebel</p></div>
+                    <div class="sprite_item"><img src="images/072.png" alt="Tentacool"><p class="pokemon_name">Tentacool</p></div>
+                    <div class="sprite_item"><img src="images/073.png" alt="Tentacruel"><p class="pokemon_name">Tentacruel</p></div>
+                    <div class="sprite_item"><img src="images/074.png" alt="Geodude"><p class="pokemon_name">Geodude</p></div>
+                    <div class="sprite_item"><img src="images/075.png" alt="Graveler"><p class="pokemon_name">Graveler</p></div>
+                    <div class="sprite_item"><img src="images/076.png" alt="Golem"><p class="pokemon_name">Golem</p></div>
+                    <div class="sprite_item"><img src="images/077.png" alt="Ponyta"><p class="pokemon_name">Ponyta</p></div>
+                    <div class="sprite_item"><img src="images/078.png" alt="Rapidash"><p class="pokemon_name">Rapidash</p></div>
+                    <div class="sprite_item"><img src="images/079.png" alt="Slowpoke"><p class="pokemon_name">Slowpoke</p></div>
+                    <div class="sprite_item"><img src="images/080.png" alt="Slowbro"><p class="pokemon_name">Slowbro</p></div>
+                    <div class="sprite_item"><img src="images/081.png" alt="Magnemite"><p class="pokemon_name">Magnemite</p></div>
+                    <div class="sprite_item"><img src="images/082.png" alt="Magneton"><p class="pokemon_name">Magneton</p></div>
+                    <div class="sprite_item"><img src="images/083.png" alt="Farfetch'd"><p class="pokemon_name">Farfetch'd</p></div>
+                    <div class="sprite_item"><img src="images/084.png" alt="Doduo"><p class="pokemon_name">Doduo</p></div>
+                    <div class="sprite_item"><img src="images/085.png" alt="Dodrio"><p class="pokemon_name">Dodrio</p></div>
+                    <div class="sprite_item"><img src="images/086.png" alt="Seel"><p class="pokemon_name">Seel</p></div>
+                    <div class="sprite_item"><img src="images/087.png" alt="Dewgong"><p class="pokemon_name">Dewgong</p></div>
+                    <div class="sprite_item"><img src="images/088.png" alt="Grimer"><p class="pokemon_name">Grimer</p></div>
+                    <div class="sprite_item"><img src="images/089.png" alt="Muk"><p class="pokemon_name">Muk</p></div>
+                    <div class="sprite_item"><img src="images/090.png" alt="Shellder"><p class="pokemon_name">Shellder</p></div>
+                    <div class="sprite_item"><img src="images/091.png" alt="Cloyster"><p class="pokemon_name">Cloyster</p></div>
+                    <div class="sprite_item"><img src="images/092.png" alt="Gastly"><p class="pokemon_name">Gastly</p></div>
+                    <div class="sprite_item"><img src="images/093.png" alt="Haunter"><p class="pokemon_name">Haunter</p></div>
+                    <div class="sprite_item"><img src="images/094.png" alt="Gengar"><p class="pokemon_name">Gengar</p></div>
+                    <div class="sprite_item"><img src="images/095.png" alt="Onix"><p class="pokemon_name">Onix</p></div>
+                    <div class="sprite_item"><img src="images/096.png" alt="Drowzee"><p class="pokemon_name">Drowzee</p></div>
+                    <div class="sprite_item"><img src="images/097.png" alt="Hypno"><p class="pokemon_name">Hypno</p></div>
+                    <div class="sprite_item"><img src="images/098.png" alt="Krabby"><p class="pokemon_name">Krabby</p></div>
+                    <div class="sprite_item"><img src="images/099.png" alt="Kingler"><p class="pokemon_name">Kingler</p></div>
+                    <div class="sprite_item"><img src="images/100.png" alt="Voltorb"><p class="pokemon_name">Voltorb</p></div>
+                    <div class="sprite_item"><img src="images/101.png" alt="Electrode"><p class="pokemon_name">Electrode</p></div>
+                    <div class="sprite_item"><img src="images/102.png" alt="Exeggcute"><p class="pokemon_name">Exeggcute</p></div>
+                    <div class="sprite_item"><img src="images/103.png" alt="Exeggutor"><p class="pokemon_name">Exeggutor</p></div>
+                    <div class="sprite_item"><img src="images/104.png" alt="Cubone"><p class="pokemon_name">Cubone</p></div>
+                    <div class="sprite_item"><img src="images/105.png" alt="Marowak"><p class="pokemon_name">Marowak</p></div>
+                    <div class="sprite_item"><img src="images/106.png" alt="Hitmonlee"><p class="pokemon_name">Hitmonlee</p></div>
+                    <div class="sprite_item"><img src="images/107.png" alt="Hitmonchan"><p class="pokemon_name">Hitmonchan</p></div>
+                    <div class="sprite_item"><img src="images/108.png" alt="Lickitung"><p class="pokemon_name">Lickitung</p></div>
+                    <div class="sprite_item"><img src="images/109.png" alt="Koffing"><p class="pokemon_name">Koffing</p></div>
+                    <div class="sprite_item"><img src="images/110.png" alt="Weezing"><p class="pokemon_name">Weezing</p></div>
+                    <div class="sprite_item"><img src="images/111.png" alt="Rhyhorn"><p class="pokemon_name">Rhyhorn</p></div>
+                    <div class="sprite_item"><img src="images/112.png" alt="Rhydon"><p class="pokemon_name">Rhydon</p></div>
+                    <div class="sprite_item"><img src="images/113.png" alt="Chansey"><p class="pokemon_name">Chansey</p></div>
+                    <div class="sprite_item"><img src="images/114.png" alt="Tangela"><p class="pokemon_name">Tangela</p></div>
+                    <div class="sprite_item"><img src="images/115.png" alt="Kangaskhan"><p class="pokemon_name">Kangaskhan</p></div>
+                    <div class="sprite_item"><img src="images/116.png" alt="Horsea"><p class="pokemon_name">Horsea</p></div>
+                    <div class="sprite_item"><img src="images/117.png" alt="Seadra"><p class="pokemon_name">Seadra</p></div>
+                    <div class="sprite_item"><img src="images/118.png" alt="Goldeen"><p class="pokemon_name">Goldeen</p></div>
+                    <div class="sprite_item"><img src="images/119.png" alt="Seaking"><p class="pokemon_name">Seaking</p></div>
+                    <div class="sprite_item"><img src="images/120.png" alt="Staryu"><p class="pokemon_name">Staryu</p></div>
+                    <div class="sprite_item"><img src="images/121.png" alt="Starmie"><p class="pokemon_name">Starmie</p></div>
+                    <div class="sprite_item"><img src="images/122.png" alt="Mr. Mime"><p class="pokemon_name">Mr. Mime</p></div>
+                    <div class="sprite_item"><img src="images/123.png" alt="Scyther"><p class="pokemon_name">Scyther</p></div>
+                    <div class="sprite_item"><img src="images/124.png" alt="Jynx"><p class="pokemon_name">Jynx</p></div>
+                    <div class="sprite_item"><img src="images/125.png" alt="Electabuzz"><p class="pokemon_name">Electabuzz</p></div>
+                    <div class="sprite_item"><img src="images/126.png" alt="Magmar"><p class="pokemon_name">Magmar</p></div>
+                    <div class="sprite_item"><img src="images/127.png" alt="Pinsir"><p class="pokemon_name">Pinsir</p></div>
+                    <div class="sprite_item"><img src="images/128.png" alt="Tauros"><p class="pokemon_name">Tauros</p></div>
+                    <div class="sprite_item"><img src="images/129.png" alt="Magikarp"><p class="pokemon_name">Magikarp</p></div>
+                    <div class="sprite_item"><img src="images/130.png" alt="Gyarados"><p class="pokemon_name">Gyarados</p></div>
+                    <div class="sprite_item"><img src="images/131.png" alt="Lapras"><p class="pokemon_name">Lapras</p></div>
+                    <div class="sprite_item"><img src="images/132.png" alt="Ditto"><p class="pokemon_name">Ditto</p></div>
+                    <div class="sprite_item"><img src="images/133.png" alt="Eevee"><p class="pokemon_name">Eevee</p></div>
+                    <div class="sprite_item"><img src="images/134.png" alt="Vaporeon"><p class="pokemon_name">Vaporeon</p></div>
+                    <div class="sprite_item"><img src="images/135.png" alt="Jolteon"><p class="pokemon_name">Jolteon</p></div>
+                    <div class="sprite_item"><img src="images/136.png" alt="Flareon"><p class="pokemon_name">Flareon</p></div>
+                    <div class="sprite_item"><img src="images/137.png" alt="Porygon"><p class="pokemon_name">Porygon</p></div>
+                    <div class="sprite_item"><img src="images/138.png" alt="Omanyte"><p class="pokemon_name">Omanyte</p></div>
+                    <div class="sprite_item"><img src="images/139.png" alt="Omastar"><p class="pokemon_name">Omastar</p></div>
+                    <div class="sprite_item"><img src="images/140.png" alt="Kabuto"><p class="pokemon_name">Kabuto</p></div>
+                    <div class="sprite_item"><img src="images/141.png" alt="Kabutops"><p class="pokemon_name">Kabutops</p></div>
+                    <div class="sprite_item"><img src="images/142.png" alt="Aerodactyl"><p class="pokemon_name">Aerodactyl</p></div>
+                    <div class="sprite_item"><img src="images/143.png" alt="Snorlax"><p class="pokemon_name">Snorlax</p></div>
+                    <div class="sprite_item"><img src="images/144.png" alt="Articuno"><p class="pokemon_name">Articuno</p></div>
+                    <div class="sprite_item"><img src="images/145.png" alt="Zapdos"><p class="pokemon_name">Zapdos</p></div>
+                    <div class="sprite_item"><img src="images/146.png" alt="Moltres"><p class="pokemon_name">Moltres</p></div>
+                    <div class="sprite_item"><img src="images/147.png" alt="Dratini"><p class="pokemon_name">Dratini</p></div>
+                    <div class="sprite_item"><img src="images/148.png" alt="Dragonair"><p class="pokemon_name">Dragonair</p></div>
+                    <div class="sprite_item"><img src="images/149.png" alt="Dragonite"><p class="pokemon_name">Dragonite</p></div>
+                    <div class="sprite_item"><img src="images/150.png" alt="Mewtwo"><p class="pokemon_name">Mewtwo</p></div>
+                    <div class="sprite_item"><img src="images/151.png" alt="Mew"><p class="pokemon_name">Mew</p></div>
+                    <div class="sprite_item"><img src="images/152.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/153.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/154.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/155.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/156.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/157.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/158.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/159.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/160.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/161.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/162.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/163.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/164.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/165.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/166.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/167.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/168.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/169.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/170.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/171.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/172.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/173.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/174.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/175.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/176.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/177.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/178.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/179.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/180.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/181.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/182.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/183.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/184.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/185.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/186.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/187.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/188.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/189.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/190.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/191.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/192.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/193.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/194.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/195.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/196.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/197.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/198.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/199.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/200.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/201.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/202.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/203.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/204.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/205.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/206.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/207.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/208.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/209.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/210.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/211.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/212.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/213.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/214.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/215.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/216.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/217.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/218.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/219.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/220.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/221.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/222.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/223.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/224.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/225.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/226.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/227.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/228.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/229.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/230.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/231.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/232.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/233.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/234.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/235.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/236.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/237.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/238.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/239.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/240.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/241.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/242.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/243.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/244.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/245.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/246.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/247.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/248.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/249.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/250.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/251.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/252.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/253.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/254.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/255.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/256.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/257.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/258.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/259.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/260.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/261.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/262.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/263.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/264.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/265.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/266.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/267.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/268.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/269.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/270.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/271.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/272.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/273.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/274.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/275.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/276.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/277.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/278.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/279.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/280.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/281.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/282.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/283.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/284.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/285.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/286.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/287.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/288.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/289.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/290.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/291.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/292.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/293.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/294.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/295.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/296.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/297.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/298.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/299.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/300.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/301.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/302.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/303.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/304.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/305.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/306.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/307.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/308.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/309.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/310.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/311.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/312.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/313.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/314.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/315.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/316.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/317.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/318.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/319.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/320.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/321.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/322.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/323.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/324.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/325.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/326.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/327.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/328.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/329.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/330.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/331.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/332.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/333.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/334.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/335.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/336.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/337.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/338.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/339.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/340.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/341.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/342.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/343.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/344.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/345.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/346.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/347.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/348.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/349.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/350.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/351.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/352.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/353.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/354.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/355.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/356.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/357.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/358.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/359.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/360.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/361.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/362.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/363.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/364.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/365.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/366.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/367.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/368.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/369.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/370.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/371.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/372.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/373.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/374.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/375.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/376.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/377.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/378.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/379.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/380.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/381.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/382.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/383.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/384.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/385.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/386.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/387.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/388.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/389.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/390.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/391.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/392.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/393.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/394.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/395.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/396.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/397.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/398.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/399.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/400.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/401.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/402.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/403.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/404.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/405.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/406.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/407.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/408.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/409.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/410.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/411.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/412.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/413.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/414.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/415.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/416.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/417.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/418.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/419.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/420.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/421.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/422.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/423.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/424.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/425.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/426.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/427.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/428.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/429.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/430.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/431.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/432.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/433.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/434.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/435.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/436.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/437.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/438.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/439.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/440.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/441.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/442.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/443.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/444.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/445.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/446.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/447.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/448.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/449.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/450.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/451.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/452.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/453.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/454.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/455.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/456.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/457.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/458.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/459.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/460.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/461.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/462.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/463.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/464.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/465.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/466.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/467.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/468.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/469.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/470.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/471.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/472.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/473.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/474.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/475.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/476.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/477.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/478.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/479.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/480.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/481.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/482.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/483.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/484.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/485.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/486.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/487.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/488.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/489.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/490.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/491.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/492.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/493.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/494.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/495.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/496.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/497.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/498.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/499.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/500.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/501.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/502.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/503.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/504.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/505.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/506.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/507.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/508.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/509.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/510.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/511.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/512.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/513.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/514.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/515.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/516.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/517.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/518.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/519.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/520.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/521.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/522.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/523.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/524.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/525.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/526.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/527.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/528.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/529.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/530.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/531.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/532.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/533.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/534.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/535.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/536.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/537.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/538.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/539.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/540.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/541.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/542.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/543.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/544.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/545.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/546.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/547.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/548.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/549.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/550.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/551.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/552.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/553.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/554.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/555.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/556.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/557.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/558.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/559.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/560.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/561.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/562.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/563.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/564.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/565.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/566.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/567.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/568.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/569.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/570.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/571.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/572.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/573.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/574.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/575.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/576.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/577.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/578.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/579.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/580.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/581.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/582.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/583.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/584.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/585.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/586.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/587.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/588.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/589.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/590.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/591.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/592.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/593.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/594.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/595.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/596.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/597.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/598.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/599.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/600.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/601.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/602.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/603.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/604.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/605.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/606.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/607.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/608.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/609.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/610.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/611.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/612.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/613.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/614.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/615.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/616.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/617.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/618.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/619.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/620.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/621.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/622.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/623.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/624.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/625.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/626.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/627.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/628.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/629.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/630.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/631.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/632.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/633.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/634.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/635.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/636.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/637.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/638.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/639.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/640.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/641.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/642.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/643.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/644.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/645.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/646.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/647.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/648.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/649.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/650.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/651.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/652.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/653.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/654.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/655.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/656.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/657.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/658.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/659.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/660.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/661.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/662.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/663.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/664.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/665.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/666.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/667.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/668.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/669.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/670.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/671.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/672.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/673.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/674.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/675.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/676.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/677.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/678.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/679.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/680.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/681.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/682.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/683.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/684.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/685.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/686.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/687.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/688.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/689.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/690.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/691.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/692.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/693.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/694.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/695.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/696.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/697.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/698.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/699.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/700.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/701.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/702.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/703.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/704.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/705.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/706.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/707.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/708.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/709.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/710.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/711.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/712.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/713.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/714.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/715.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/716.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/717.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/718.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/719.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/720.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/721.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/722.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/723.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/724.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/725.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/726.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/727.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/728.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/729.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/730.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/731.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/732.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/733.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/734.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/735.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/736.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/737.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/738.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/739.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/740.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/741.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/742.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/743.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/744.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/745.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/746.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/747.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/748.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/749.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/750.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/751.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/752.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/753.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/754.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/755.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/756.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/757.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/758.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/759.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/760.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/761.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/762.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/763.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/764.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/765.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/766.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/767.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/768.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/769.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/770.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/771.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/772.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/773.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/774.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/775.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/776.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/777.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/778.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/779.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/780.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/781.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/782.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/783.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/784.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/785.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/786.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/787.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/788.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/789.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/790.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/791.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/792.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/793.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/794.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/795.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/796.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/797.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/798.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/799.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/800.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/801.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/802.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/803.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/804.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/805.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/806.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/807.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/808.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/809.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/810.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/811.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/812.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/813.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/814.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/815.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/816.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/817.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/818.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/819.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/820.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/821.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/822.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/823.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/824.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/825.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/826.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/827.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/828.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/829.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/830.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/831.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/832.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/833.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/834.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/835.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/836.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/837.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/838.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/839.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/840.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/841.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/842.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/843.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/844.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/845.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/846.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/847.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/848.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/849.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/850.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/851.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/852.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/853.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/854.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/855.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/856.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/857.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/858.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/859.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/860.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/861.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/862.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/863.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/864.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/865.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/866.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/867.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/868.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/869.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/870.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/871.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/872.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/873.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/874.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/875.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/876.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/877.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/878.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/879.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/880.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/881.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/882.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/883.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/884.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/885.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/886.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/887.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/888.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/889.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/890.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/891.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/892.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/893.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/894.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/895.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/896.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/897.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/898.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/899.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/900.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/901.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/902.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/903.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/904.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/905.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/906.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/907.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/908.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/909.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/910.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/911.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/912.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/913.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/914.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/915.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/916.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/917.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/918.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/919.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/920.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/921.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/922.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/923.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/924.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/925.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/926.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/927.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/928.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/929.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/930.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/931.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/932.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/933.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/934.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/935.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/936.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/937.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/938.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/939.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/940.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/941.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/942.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/943.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/944.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/945.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/946.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/947.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/948.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/949.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/950.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/951.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/952.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/953.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/954.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/955.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/956.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/957.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/958.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/959.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/960.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/961.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/962.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/963.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/964.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/965.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/966.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/967.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/968.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/969.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/970.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/971.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/972.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/973.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/974.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/975.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/976.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/977.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/978.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/979.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/980.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/981.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/982.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/983.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/984.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/985.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/986.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/987.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/988.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/989.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/990.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/991.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/992.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/993.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/994.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/995.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/996.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/997.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/998.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/999.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1000.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1001.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1002.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1003.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1004.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1005.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1006.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1007.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1008.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1009.png" alt=""><p class="pokemon_name"></p></div>
+                    <div class="sprite_item"><img src="images/1010.png" alt=""><p class="pokemon_name"></p></div>
+                </div>
+                <h3 id="regional">Regional Form Sprites</h3>
+                <p class="regional_text">Alolan Forms</p>
+                <div id="alolan_sprites">
+                    <div class="sprite_item"><img src="images/019a.png" alt="Alolan Rattata"><p class="pokemon_name">Alolan Rattata</p></div>
+                    <div class="sprite_item"><img src="images/020a.png" alt="Alolan Raticate"><p class="pokemon_name">Alolan Raticate</p></div>
+                    <div class="sprite_item"><img src="images/026a.png" alt="Alolan Raichu"><p class="pokemon_name">Alolan Raichu</p></div>
+                    <div class="sprite_item"><img src="images/027a.png" alt="Alolan Sandshrew"><p class="pokemon_name">Alolan Sandshrew</p></div>
+                    <div class="sprite_item"><img src="images/028a.png" alt="Alolan Sandslash"><p class="pokemon_name">Alolan Sandslash</p></div>
+                    <div class="sprite_item"><img src="images/037a.png" alt="Alolan Vulpix"><p class="pokemon_name">Alolan Vulpix</p></div>
+                    <div class="sprite_item"><img src="images/038a.png" alt="Alolan Ninetales"><p class="pokemon_name">Alolan Ninetales</p></div>
+                    <div class="sprite_item"><img src="images/050a.png" alt="Alolan Diglett"><p class="pokemon_name">Alolan Diglett</p></div>
+                    <div class="sprite_item"><img src="images/051a.png" alt="Alolan Dugtrio"><p class="pokemon_name">Alolan Dugtrio</p></div>
+                    <div class="sprite_item"><img src="images/052a.png" alt="Alolan Meowth"><p class="pokemon_name">Alolan Meowth</p></div>
+                    <div class="sprite_item"><img src="images/053a.png" alt="Alolan Persian"><p class="pokemon_name">Alolan Persian</p></div>
+                    <div class="sprite_item"><img src="images/074a.png" alt="Alolan Geodude"><p class="pokemon_name">Alolan Geodude</p></div>
+                    <div class="sprite_item"><img src="images/075a.png" alt="Alolan Graveler"><p class="pokemon_name">Alolan Graveler</p></div>
+                    <div class="sprite_item"><img src="images/076a.png" alt="Alolan Golem"><p class="pokemon_name">Alolan Golem</p></div>
+                    <div class="sprite_item"><img src="images/088a.png" alt="Alolan Grimer"><p class="pokemon_name">Alolan Grimer</p></div>
+                    <div class="sprite_item"><img src="images/089a.png" alt="Alolan Muk"><p class="pokemon_name">Alolan Muk</p></div>
+                    <div class="sprite_item"><img src="images/103a.png" alt="Alolan Exeggutor"><p class="pokemon_name">Alolan Exeggutor</p></div>
+                    <div class="sprite_item"><img src="images/105a.png" alt="Alolan Exeggutor"><p class="pokemon_name">Alolan Marowak</p></div>
+            </div>
+                <p class="regional_text">Galarian Forms</p>
+                <div id="galarian_sprites">
+                    <div class="sprite_item"><img src="images/052g.png" alt="Galarian Meowth"><p class="pokemon_name">Galarian Meowth</p></div>
+                    <div class="sprite_item"><img src="images/077g.png" alt="Galarian Ponyta"><p class="pokemon_name">Galarian Ponyta</p></div>
+                    <div class="sprite_item"><img src="images/078g.png" alt="Galarian Rapidash"><p class="pokemon_name">Galarian Rapidash</p></div>
+                    <div class="sprite_item"><img src="images/079g.png" alt="Galarian Slowpoke"><p class="pokemon_name">Galarian Slowpoke</p></div>
+                    <div class="sprite_item"><img src="images/080g.png" alt="Galarian Slowbro"><p class="pokemon_name">Galarian Slowbro</p></div>
+                    <div class="sprite_item"><img src="images/083g.png" alt="Galarian Farfetch'd"><p class="pokemon_name">Galarian Farfetch'd</p></div>
+                    <div class="sprite_item"><img src="images/110g.png" alt="Galarian Weezing"><p class="pokemon_name">Galarian Weezing</p></div>
+                    <div class="sprite_item"><img src="images/122g.png" alt="Galarian Mr. Mime"><p class="pokemon_name">Galarian Mr. Mime</p></div>
+                    <div class="sprite_item"><img src="images/144g.png" alt="Articuno"><p class="pokemon_name">Galarian Articuno</p></div>
+                    <div class="sprite_item"><img src="images/145g.png" alt="Zapdos"><p class="pokemon_name">Galarian Zapdos</p></div>
+                    <div class="sprite_item"><img src="images/146g.png" alt="Moltres"><p class="pokemon_name">Galarian Moltres</p></div>
+                </div>
+                <p class="regional_text">Hisuian Forms</p>
+                <div id="hisuian_sprites">
+                    <div class="sprite_item"><img src="images/058h.png" alt="Hisuian Growlithe"><p class="pokemon_name">Hisuian Growlithe</p></div>
+                    <div class="sprite_item"><img src="images/059h.png" alt="Hisuian Arcanine"><p class="pokemon_name">Hisuian Arcanine</p></div>
+                    <div class="sprite_item"><img src="images/100h.png" alt="Hisuian Voltorb"><p class="pokemon_name">Hisuian Voltorb</p></div>
+                    <div class="sprite_item"><img src="images/101h.png" alt="Hisuian Electrode"><p class="pokemon_name">Hisuian Electrode</p></div>
+                </div>
+                <p class="regional_text">Paldean Forms</p>
+                <div id="paldean_sprites">
+                    <div class="sprite_item"><img src="images/128p.png" alt="Paldean Tauros"><p class="pokemon_name">Paldean Tauros</p></div>
+                    <div class="sprite_item"><img src="images/128pb.png" alt="Paldean Tauros Blaze Breed"><p class="pokemon_name">Paldean Tauros Blaze Breed</p></div>
+                    <div class="sprite_item"><img src="images/128pa.png" alt="Paldean Tauros Aqua Breed"><p class="pokemon_name">Paldean Tauros Aqua Breed</p></div>
+                </div>
+        </section>
+
+        <section class="col-start-3 col-end-5 m-col-start-7 m-col-end-13" id="pokedex_area">
+            <div id="pokedex">
+                <h3 id="pokedex_title">Pokedex</h3>
+                <div id="pokedex_display">
+                    <div class="pokedex_box"><p class="pokedex_number">#1</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#2</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#3</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#4</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#5</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#6</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#7</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#8</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#9</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#10</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#11</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#12</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#13</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#14</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#15</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#16</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#17</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#18</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#19</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#20</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#21</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#22</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#23</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#24</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#25</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#26</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#27</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#28</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#29</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#30</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#31</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#32</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#33</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#34</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#35</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#36</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#37</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#38</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#39</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#40</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#41</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#42</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#43</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#44</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#45</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#46</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#47</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#48</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#49</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#50</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#51</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#52</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#53</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#54</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#55</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#56</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#57</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#58</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#59</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#60</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#61</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#62</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#63</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#64</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#65</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#66</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#67</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#68</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#69</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#70</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#71</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#72</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#73</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#74</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#75</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#76</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#77</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#78</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#79</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#80</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#81</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#82</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#83</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#84</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#85</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#86</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#87</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#88</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#89</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#90</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#91</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#92</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#93</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#94</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#95</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#96</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#97</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#98</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#99</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#100</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#101</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#102</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#103</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#104</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#105</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#106</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#107</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#108</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#109</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#110</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#111</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#112</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#113</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#114</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#115</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#116</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#117</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#118</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#119</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#120</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#121</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#122</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#123</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#124</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#125</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#126</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#127</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#128</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#129</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#130</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#131</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#132</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#133</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#134</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#135</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#136</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#137</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#138</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#139</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#140</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#141</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#142</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#143</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#144</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#145</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#146</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#147</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#148</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#149</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#150</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#151</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#152</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#153</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#154</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#155</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#156</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#157</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#158</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#159</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#160</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#161</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#162</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#163</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#164</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#165</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#166</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#167</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#168</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#169</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#170</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#171</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#172</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#173</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#174</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#175</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#176</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#177</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#178</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#179</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#180</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#181</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#182</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#183</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#184</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#185</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#186</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#187</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#188</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#189</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#190</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#191</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#192</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#193</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#194</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#195</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#196</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#197</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#198</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#199</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#200</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#201</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#202</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#203</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#204</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#205</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#206</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#207</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#208</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#209</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#210</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#211</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#212</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#213</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#214</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#215</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#216</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#217</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#218</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#219</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#220</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#221</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#222</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#223</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#224</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#225</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#226</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#227</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#228</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#229</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#230</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#231</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#232</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#233</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#234</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#235</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#236</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#237</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#238</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#239</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#240</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#241</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#242</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#243</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#244</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#245</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#246</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#247</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#248</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#249</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#250</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#251</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#252</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#253</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#254</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#255</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#256</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#257</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#258</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#259</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#260</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#261</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#262</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#263</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#264</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#265</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#266</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#267</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#268</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#269</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#270</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#271</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#272</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#273</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#274</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#275</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#276</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#277</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#278</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#279</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#280</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#281</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#282</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#283</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#284</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#285</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#286</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#287</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#288</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#289</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#290</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#291</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#292</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#293</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#294</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#295</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#296</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#297</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#298</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#299</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#300</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#301</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#302</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#303</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#304</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#305</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#306</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#307</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#308</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#309</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#310</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#311</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#312</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#313</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#314</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#315</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#316</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#317</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#318</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#319</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#320</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#321</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#322</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#323</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#324</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#325</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#326</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#327</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#328</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#329</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#330</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#331</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#332</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#333</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#334</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#335</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#336</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#337</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#338</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#339</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#340</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#341</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#342</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#343</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#344</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#345</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#346</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#347</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#348</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#349</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#350</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#351</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#352</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#353</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#354</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#355</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#356</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#357</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#358</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#359</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#360</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#361</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#362</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#363</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#364</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#365</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#366</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#367</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#368</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#369</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#370</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#371</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#372</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#373</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#374</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#375</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#376</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#377</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#378</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#379</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#380</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#381</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#382</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#383</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#384</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#385</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#386</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#387</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#388</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#389</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#390</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#391</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#392</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#393</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#394</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#395</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#396</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#397</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#398</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#399</p></div>
+                    <div class="pokedex_box"><p class="pokedex_number">#400</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bottom" class="col-span-full">
+            Copyright
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+#container {
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#main_title {
+    font-family: 'Silkscreen';
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#instructions_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#box_title, #pokedex_title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pokedex_box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#pokedex_display, #pokemon_sprites, #alolan_sprites, #galarian_sprites, #hisuian_sprites, #paldean_sprites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sprite_item {
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+}
+
+.pokemon_name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pokedex_number {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#regional {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.regional_text {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
