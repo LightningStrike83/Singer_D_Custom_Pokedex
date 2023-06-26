@@ -43,7 +43,7 @@ h3 {
 .sprite_item {
     border: 1px solid black;
     text-align: center;
-    width: 100px;
+    max-width: 100px;
 }
 
 .pokemon_name {
