@@ -101,3 +101,55 @@
 
                     console.log('Welcome to the world of Pokemon!');
 
+                    function drop(event) {
+                        event.preventDefault();
+                        const targetDropArea = event.target.closest(".pokedex_box");
+                      
+                        if (!targetDropArea) {
+                          return; // Ignore the drop if the target drop area is invalid
+                        }
+                      
+                        const draggedPokemon = document.querySelector(".dragging");
+                      
+                        if (draggedPokemon) {
+                          const currentDropArea = draggedPokemon.parentNode;
+                      
+                          if (currentDropArea !== targetDropArea) {
+                            const existingImage = targetDropArea.querySelector("img");
+                            
+                            if (existingImage) {
+                              return; // Ignore the drop if there is already an image inside the target drop area
+                            }
+                      
+                            // Remove the dragged image from its current drop area
+                            currentDropArea.removeChild(draggedPokemon);
+                      
+                            // Append the dragged image to the target drop area
+                            targetDropArea.appendChild(draggedPokemon);
+                          }
+                      
+                          // Remove the "dragging" class
+                          draggedPokemon.classList.remove("dragging");
+                        }
+                      
+                        event.target.classList.remove("drag-enter");
+                      }
+                    
+                    function returnToOriginalPosition(event) {
+                        event.preventDefault();
+                        const draggedPokemon = document.querySelector(".dragging");
+                        const originalPositionKey = draggedPokemon.dataset.key;
+                        const originalPosition = document.querySelector(`.sprite_item[data-key="${originalPositionKey}"]`);
+                      
+                        if (draggedPokemon && originalPosition) {
+                          // Remove the dragged image from its current drop area
+                          const currentDropArea = draggedPokemon.parentNode;
+                          currentDropArea.removeChild(draggedPokemon);
+                      
+                          // Append the dragged image to the original position
+                          originalPosition.appendChild(draggedPokemon);
+                      
+                          // Remove the "dragging" class
+                          draggedPokemon.classList.remove("dragging");
+                        }
+                      }

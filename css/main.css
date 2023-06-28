@@ -112,6 +112,8 @@ li {
     border: 1px solid black;
     text-align: center;
     width: 100px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .pokemon_name {

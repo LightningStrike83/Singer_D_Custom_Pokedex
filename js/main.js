@@ -47,11 +47,8 @@ function openModernDex() {
 function dragStart(event) {
     event.dataTransfer.setData("text/plain", event.target.src);
     event.target.classList.add("dragging");
-  
-    // Assign a unique data key to the div and the image
     const div = event.target.closest(".sprite_item");
-    const dataKey = Date.now(); // Generate a unique timestamp-based key
-  
+    const dataKey = Date.now();
     div.dataset.key = dataKey;
     event.target.dataset.key = dataKey;
   }
@@ -73,32 +70,32 @@ function dragLeave(event) {
 }
 
 function drop(event) {
-  event.preventDefault();
-  const targetDropArea = event.target.closest(".pokedex_box");
-
-  if (!targetDropArea) {
-    return; // Ignore the drop if the target drop area is invalid
-  }
-
-  const draggedPokemon = document.querySelector(".dragging");
-
-  if (draggedPokemon) {
-    const currentDropArea = draggedPokemon.parentNode;
-
-    if (currentDropArea !== targetDropArea) {
-      // Remove the dragged image from its current drop area
-      currentDropArea.removeChild(draggedPokemon);
-
-      // Append the dragged image to the target drop area
-      targetDropArea.appendChild(draggedPokemon);
+    event.preventDefault();
+    const targetDropArea = event.target.closest(".pokedex_box");
+    const draggedPokemon = document.querySelector(".dragging");
+  
+    if (!targetDropArea) {
+      return;
     }
+  
+    if (draggedPokemon) {
+      const currentDropArea = draggedPokemon.parentNode;
+  
+      if (currentDropArea !== targetDropArea) {
+        const existingImage = targetDropArea.querySelector("img");
+        
+        if (existingImage) {
+          return;
+        }
 
-    // Remove the "dragging" class
-    draggedPokemon.classList.remove("dragging");
+        currentDropArea.removeChild(draggedPokemon);
+        targetDropArea.appendChild(draggedPokemon);
+      }
+      draggedPokemon.classList.remove("dragging");
+    }
+  
+    event.target.classList.remove("drag-enter");
   }
-
-  event.target.classList.remove("drag-enter");
-}
 
 function returnToOriginalPosition(event) {
     event.preventDefault();
@@ -107,14 +104,9 @@ function returnToOriginalPosition(event) {
     const originalPosition = document.querySelector(`.sprite_item[data-key="${originalPositionKey}"]`);
   
     if (draggedPokemon && originalPosition) {
-      // Remove the dragged image from its current drop area
       const currentDropArea = draggedPokemon.parentNode;
       currentDropArea.removeChild(draggedPokemon);
-  
-      // Append the dragged image to the original position
       originalPosition.appendChild(draggedPokemon);
-  
-      // Remove the "dragging" class
       draggedPokemon.classList.remove("dragging");
     }
   }
