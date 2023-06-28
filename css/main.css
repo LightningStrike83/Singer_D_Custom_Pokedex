@@ -124,13 +124,14 @@ li {
     flex-wrap: wrap;
 }
 
+
 #pokemon_sprites, #alolan_sprites, #galarian_sprites, #hisuian_sprites, #paldean_sprites {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.sprite_item {
+.kanto, .johto, .hoenn, .sinnoh, .unova, .kalos, .alola, .galar, .hisui, .paldea, .regionals {
     border: 1px solid black;
     text-align: center;
     width: 100px;
@@ -179,6 +180,27 @@ li {
     justify-content: space-between;
     margin-bottom: 10px;
     font-size: 18px;
+    flex-wrap: wrap;
+}
+
+#filter {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+#filter p {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#filter p:not(#filter_title) {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
 }
 
 #size p:not(#size_text) {

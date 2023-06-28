@@ -4,7 +4,8 @@ let tips = document.querySelector("#tips_click");
 let classicDex = document.querySelector("#classic");
 let legendsDex = document.querySelector("#legends");
 let modernDex = document.querySelector("#modern");
-let pokemonSprites = document.querySelector("#pokemon_sprites"); // New element
+let pokemonSprites = document.querySelector("#pokemon_sprites");
+
 
 const dragImages = document.querySelectorAll(".sprite_item img");
 const dropAreas = document.querySelectorAll(".pokedex_box");
@@ -43,6 +44,7 @@ function openModernDex() {
   classicDex.style.display = "none";
   legendsDex.style.display = "none";
 }
+
 
 function dragStart(event) {
     event.dataTransfer.setData("text/plain", event.target.src);
