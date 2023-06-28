@@ -98,3 +98,6 @@
                     <div class="sprite_item"><img src="images/297.png" alt=""><p class="pokemon_name"></p></div>
                     <div class="sprite_item"><img src="images/298.png" alt=""><p class="pokemon_name"></p></div>
                     <div class="sprite_item"><img src="images/299.png" alt=""><p class="pokemon_name"></p></div>
+
+                    console.log('Welcome to the world of Pokemon!');
+
