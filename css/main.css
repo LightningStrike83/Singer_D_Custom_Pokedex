@@ -92,7 +92,7 @@ li {
 
 .pokedex_box {
     border: 1px solid black;
-    height: 100px;
+    height: 120px;
     width: 100px;
 }
 
@@ -111,7 +111,7 @@ li {
 .sprite_item {
     border: 1px solid black;
     text-align: center;
-    max-width: 100px;
+    width: 100px;
 }
 
 .pokemon_name {
